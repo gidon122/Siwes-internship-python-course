@@ -85,27 +85,27 @@ class Rectagle:
         self.width = width
 
     def area(self):
-        print(f"{self.length}*{self.width}")
+        print(f"{self.length*self.width}")
     def perimeter(self):
-        print(f"{self.length}+{self.width}")
+        print(f"{self.length+self.width}")
 Rectagle1 = Rectagle(34, 54)
 Rectagle1.area()
 Rectagle1.perimeter()
 
 
 
-class Bank:
-    def __init__(self, owner, balance):
-        self.owner = owner
-        self.balance = balance
+# class Bank:
+#     def __init__(self, owner, balance):
+#         self.owner = owner
+#         self.balance = balance
 
-    def deposit(self):
-        print(f"{self.owner} just deposited some amount of money. total assets is ${self.balance}")
-    def withraw(self):
-        print(f"Hello {self.owner} you just made some transactions. total assets is now ${self.balance}")
-    def check(self):
-        print(f"your total asset is ${self.balance}. Thanks for banking with us")
-Bank1 = Bank("Aliu Ahmed", 190243.32)
-Bank1.deposit()
-Bank1.withraw()
-Bank1.check()
+#     def deposit(self):
+#         print(f"{self.owner} just deposited some amount of money. total assets is ${self.balance}")
+#     def withraw(self):
+#         print(f"Hello {self.owner} you just made some transactions. total assets is now ${self.balance}")
+#     def check(self):
+#         print(f"your total asset is ${self.balance}. Thanks for banking with us")
+# Bank1 = Bank("Aliu Ahmed", 190243.32)
+# Bank1.deposit()
+# Bank1.withraw()
+# Bank1.check()
